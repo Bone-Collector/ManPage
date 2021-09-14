@@ -1,0 +1,59 @@
+body {
+    height: 1vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: grid;
+    /* height: 250px; */
+    font-family: "Roboto", sans-serif;
+    grid-auto-rows: 250px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    justify-content: center;
+    align-content: center;
+}
+
+.img {
+    grid-column: 2 / span 1;
+    background-image: url(/img/manPageLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: solid 1px; */
+    background-size: 200px 200px;
+}
+
+.title {
+    grid-column: 1 / span 1;
+    /* border: solid 1px; */
+    font-family: "jfRockSolid", "roboto", sans-serif;
+    text-align: center;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.tag-line {
+    grid-column: 3 / span 1;
+    /* border: solid 1px; */
+    font-family: "jfRockSolid", "roboto", sans-serif;
+    text-align: center;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.container {
+    display: grid;
+    font-family: "Roboto", sans-serif;
+    grid-auto-rows: repeat(2, ifr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    justify-content: center;
+    align-content: center;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: "jfRockSolid", "Roboto", sans-serif;
+}
